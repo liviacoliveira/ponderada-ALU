@@ -1,0 +1,123 @@
+ALU 8 bits
+Rodrigo Nicola
+Unidade de lógica e aritmética de 8 bits
+██ Conteúdo
+▓▓▓ Enunciado
+▓▓▓ Padrão de entrega
+▓▓▓ Padrão de qualidade
+2 / 16
+Enunciado
+██ O que precisa ser feito?
+Criar uma ALU simples. Isso significa:
+   •  Circuitos de operações                                                        
+   •  Seletor de operação                                                           
+   •  Registradores (Acumulador e MQ)                                               
+3 / 16
+
+Enunciado
+██ Operações
+Operação Operandos Saída
+Soma AC + N (8 bits) AC (8 bits)
+Subtração AC - N (8 bits) AC (8 bits)
+Multiplicação AC * N (8 bits) AC (8 LSB) e MQ (8 MSB)
+Divisão AC / N (8 bits) AC (Resto) e MQ (Quociente)
+Shift lógico AC AC (8 bits)
+NAND AC NAND N (8 AC (8 bits)
+bits)
+XOR AC (8 bits)
+AC XOR N (8
+bits)
+4 / 16
+Enunciado
+██ ALU
+▓▓▓ Glossário:
+   •  N é o operando de entrada da ALU                                              
+   •  AC é o registrador acumulador
+   •  MQ é o registrador para multiplicação e quociente
+   •  MSB significa most significant bits
+   •  LSB significa least significant bits
+5 / 16
+Enunciado
+██ ALU
+▓▓▓ Shift lógico p/ esquerda
+6 / 16
+
+Enunciado
+██ ALU
+▓▓▓ Shift lógico p/ direita
+7 / 16
+
+Enunciado
+██ ALU
+▓▓▓ Multiplicação
+8 / 16
+
+Enunciado
+██ ALU
+▓▓▓ Divisão
+9 / 16
+
+Enunciado
+██ Ferramenta de simulação
+▓▓▓ Digital (https://github.com/hneemann/Digital )
+10 / 16
+Essa é apenas uma sugestão. Pode usar qualquer ferramenta em que seja possível
+
+Padrão de entrega
+██ Artefatos
+Para que a atividade seja considerada entregue, preciso de algumas coisas:
+   •  Um repositório no github/gitlab com a implementação da atividade.             
+   •  Neste repositório, deve ter um README explicando o que é o projeto e como foi 
+      feito.                                                                        
+   •  Um vídeo em que você apresenta a atividade e explica como ela funciona.       
+   •  Uma sessão de arguição individual, caso solicitada pelo professor.            
+11 / 16
+Padrão de entrega
+██ Vídeo
+   •  Máximo de 15 minutos.                                                         
+   •  Faça a explicação mais completa que conseguir nesse tempo.                    
+   •  Suba o vídeo no youtube (pode ser vídeo não listado).                         
+   •  Deixe o vídeo embeddado no seu README do repositório.                         
+12 / 16
+Padrão de entrega
+██ Arguição
+A arguição existe para garantir que você realmente aprendeu o que precisava na
+atividade. Caso as evidências em sala de aula, no vídeo publicado ou até mesmo em
+conversas com o professor apontem para o fato de que você já domina o assunto, a
+arguição não será solicitada.
+   •  Duração de 5 a 15 minutos.                                                    
+   •  Será feita na semana após a entrega da atividade, durante os períodos de      
+      autoestudo.                                                                   
+   •  Perguntas pré-estabelecidas pelo professor sobre o conteúdo relacionado à     
+      atividade.                                                                    
+   •  A nota de execução da atividade será multiplicada por um fator de arguição que
+      varia de 0.2 até 1.5, limitando-se à nota máxima de 10 pontos.                
+13 / 16
+Padrão de entrega
+██ Revisão
+O processo de revisão da nota é o mesmo da arguição. Em termos práticos: caso você
+ache que a sua nota não reflete o trabalho feito ou o seu conhecimento a respeito
+dos assuntos da atividade, pode abrir um chamado no help e, caso o pedido seja
+aceito, o processo de revisão será uma arguição. A única diferença é que essa
+arguição também pode mudar a nota base da sua atividade e não é só um multiplicador.
+A variação pode ser positiva ou negativa.
+Pedidos de revisão de atividades que já haviam passado pelo processo de arguição
+dificilmente serão aceitos.
+14 / 16
+Padrão de entrega
+██ Plágio
+Casos de plágio receberão a nota 0 sem possibilidade de revisão.
+Isso se aplica a ambos os trabalhos em que o plágio se tornou evidente.
+15 / 16
+Padrão de qualidade
+██ Soma e subtração
+Até 2,0 pontos
+██ Multiplicação
+Até 2,0 pontos
+██ Divisão
+Até 2,0 pontos
+██ Logical shift
+Até 1,0 ponto
+██ Seletor de operação e registradores
+Até 2,0 pontos
+16 / 16
