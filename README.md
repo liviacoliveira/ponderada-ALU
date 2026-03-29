@@ -23,6 +23,18 @@ A ALU foi projetada para suportar e executar as seguintes operações com operan
 | **NAND Lógico** | AC NAND N | AC (8 bits) |
 | **XOR Lógico** | AC XOR N | AC (8 bits) |
 
+### Seletor de Operações (Multiplexador)
+
+Para exibir qual operação será executada na saída, o circuito utiliza um multiplexador controlado por um seletor de 3 bits. A configuração de seleção das operações é dada por:
+
+- `000` (0): **Soma**
+- `001` (1): **Subtração**
+- `010` (2): **NAND**
+- `011` (3): **XOR**
+- `100` (4): **Divisão** (Apresenta o Resto no registrador AC e o Quociente no registrador MQ)
+- `101` (5): **Shift Lógico** *(Necessita de um bit de controle adicional: `0` para shift à Esquerda e `1` para shift à Direita)*
+- `110` (6): **Multiplicação** (Apresenta os 8 bits menos significativos - LSB no AC e os 8 bits mais significativos - MSB no MQ)
+
 ## Como foi feito e Estrutura dos Arquivos
 
 Os circuitos componentes foram criados de forma unitária nos seguintes arquivos `.dig` e integrados na `ALU.dig`:
