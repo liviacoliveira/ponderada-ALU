@@ -32,7 +32,7 @@ Os circuitos componentes foram criados de forma unitária nos seguintes arquivos
   - `somador1bit.dig`, `somador8bits.dig`, `somador9bits.dig`: Módulos de soma que abstraem a adição, usados de base para outras operações.
   - `subtrator8bits.dig`: Módulo para a subtração bit-a-bit (utilizando complemento de 2).
   - `mult8bits.dig`: Lógica de multiplicação sequencial e combinacional.
-  - `visor8bits.dig` / `divisaointerna.dig`: Algoritmo e lógica estrutural de divisão, definindo os restos e quocientes.
+  - `divisaointerna.dig`: Algoritmo e lógica estrutural de divisão, definindo os restos e quocientes.
   - `shift.dig`: Implementação das operações de deslocamento lógico.
   - `NAND8bits.dig` / `XOR8bits.dig`: Implementação das portas lógicas bit a bit aplicadas às barramentos de 8 bits.
   - `inversor.dig`: Porta lógica inversora de suporte a complementos e operações lógicas.
