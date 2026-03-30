@@ -54,4 +54,4 @@ Os circuitos componentes foram criados de forma unitária nos seguintes arquivos
 
 No vídeo abaixo, detalho os conceitos por trás do projeto e demonstro o funcionamento prático da ALU que foi construída e suas operações!
 
-*Ou caso queira apenas deixar o link do YouTube, cole aqui: `https://youtube.com/watch?v=LINK_DO_SEU_VIDEO_AQUI`*
+*Ou caso queira apenas deixar o link do YouTube, cole aqui: `https://youtu.be/7b4gUEznvLU`*
