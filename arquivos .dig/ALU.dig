@@ -103,7 +103,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>B</string>
+          <string>N</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -117,7 +117,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>A</string>
+          <string>AC</string>
         </entry>
         <entry>
           <string>Bits</string>
